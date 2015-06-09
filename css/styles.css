@@ -1,0 +1,153 @@
+/*Typography*/
+
+
+
+/* Header */
+
+a {
+	color:#B8B8FF;
+	clear:both;	
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  float: left;
+  margin-left: .5em;
+  padding: .5em;
+  border-radius: 50%;
+  
+}
+
+a:hover {
+  -webkit-animation: callout .25s forwards;
+}
+
+
+
+li {
+  list-style: none;
+  margin: .25em 0;
+}
+
+/* Header Keyframe */
+
+@-webkit-keyframes callout {
+  0% { 
+    font-size: 1em;
+  }
+  100% { font-size: 1.5em;
+  
+  }
+}
+
+/* Footer */
+footer {
+	margin-top: 150px;
+	position: absolute;
+}
+
+footer div h2 {
+	color: #33d6ad;
+}
+
+
+
+
+/*Body Styling Home Page*/
+
+body {
+	background-image: url(../wetsnow/wet_snow.png);
+	
+}
+
+
+img {
+	clear: right;
+	display: block; 
+	float: left;
+	width: 200px; 
+	margin: 25px;
+	border-radius: 20%;
+}
+
+h1 {
+	text-align: center;
+	margin-left: 25px;
+}
+
+p {
+	margin-left: 50px;
+	padding: 50px;
+	display:block;
+	color: #33d6ad;
+	
+}
+
+
+
+
+/*Bio and Resume*/
+
+.bio h1{ 
+	color: #33d6ad;
+	font-family: 'amatic sc';
+}
+
+.bio p {
+	margin-top: 50px;
+	font-family: 'Lato';
+}
+
+
+h1, h2 {
+	font-family: 'Amatic SC', serif;
+	text-transform: uppercase;
+}
+
+p, li {
+	font-family: 'Lato', serif;
+}
+
+.dropcap {
+	background: #33d6ad;
+	border-radius: 50%;
+	color: #B8B8FF;
+	font-size: 2em;
+	padding: 15px;
+	margin: .25em;
+	float: left;
+}
+
+.contact {
+	display: inline-block;
+	clear: right;
+	margin-right: 50px;
+
+}
+
+.bio div {
+
+	margin-bottom: 50px;
+}
+
+/*Portfolio*/
+
+.home h1 {color: #B8B8FF;}
+
+
+
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+	img {
+		display: inline;
+	}
+
+
+}
+
+
+
+
+
+
