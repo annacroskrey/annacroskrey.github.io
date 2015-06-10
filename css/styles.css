@@ -138,10 +138,22 @@ p, li {
 
 /* Media Queries */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 450px) {
 	img {
 		display: inline;
+		width: 80%;
 	}
+	
+
+
+}
+
+@media screen and (min-width: 1024px) {
+	body {
+		width:80%;
+	vertical-align: center;
+	}
+	
 
 
 }
