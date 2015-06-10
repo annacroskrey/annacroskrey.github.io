@@ -82,6 +82,15 @@ p {
 	
 }
 
+/* Contact Page */
+
+form {
+	display: inline-block;
+	margin-left: 50px;
+	font-family: 'lato';
+	padding: 50px;
+}
+
 
 
 
@@ -143,7 +152,7 @@ p, li {
 		display: inline;
 		width: 80%;
 	}
-	
+
 
 
 }
